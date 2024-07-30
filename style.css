@@ -1,0 +1,38 @@
+:root{
+    --cor-fundo:#162929;
+    --cor-principal: #213838;
+    --cor-secundaria: #021818;
+    --cor-destaque: #ffffff;
+    --cor-texto:#dce7f5;
+    --cor-hover:#2d5542;
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    text-align: center;
+    padding: 25px;
+    max-width: 600px;
+    border-radius: 25px;
+}
+h1{
+    color: var(--cor-destaque);
+}
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: var(--cor-hover);
+}
